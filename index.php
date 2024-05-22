@@ -51,8 +51,8 @@ var_dump($result);
                 <div>
                     <?php  
                         echo $result ? 
-                            '<h2> mail corretta </h2>' :
-                            '<h2> mail non corretta </h2>'
+                            '<h2 class="text-success"> mail corretta </h2>' :
+                            '<h2 class="text-danger"> mail non corretta </h2>'
                     ?>
                 </div>
 
