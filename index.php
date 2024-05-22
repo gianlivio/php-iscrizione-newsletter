@@ -44,6 +44,22 @@ var_dump($result);
 
         </div>
 
+        <div class="row">
+
+            <div class="col">
+
+                <div>
+                    <?php  
+                        echo $result ? 
+                            '<h2> mail corretta </h2>' :
+                            '<h2> mail non corretta </h2>'
+                    ?>
+                </div>
+
+            </div>
+
+        </div>
+
    </div> 
     
 </body>
